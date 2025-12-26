@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King Castle Mobile Nav</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>        
+        .custom-offcanvas {
+            background: #2a2a2a;
+            border: none;
+            border-right: 3px solid #FFD700;
+            width: 300px;
+        }
+        
+        .offcanvas-header {
+            border-bottom: 1px solid #404040;
+            padding: 1.5rem 2rem;
+            position: relative;
+            border-right: 3px solid #f69403;
+        }
+        
+        .btn-close {
+            background: #f69403;
+            border: #f69403;
+            color: #fff;
+            font-size: 1.8rem;
+            position: absolute;
+            top: 100px;
+            right: 7px;
+            transform: translateX(50%);
+            font-weight: 300;
+            opacity: 1;
+            line-height: 1;
+            z-index: 2;
+        }
+        
+        .offcanvas-body {
+            padding: 0;
+            border-right: 3px solid #f69403;
+        }
+        
+        .nav-menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .nav-item {
+            border-bottom: 1px solid #404040;
+        }
+        
+        .nav-item:last-child {
+            border-bottom: none;
+        }
+        
+        .nav-link {
+            color: #b8b8b8;
+            text-decoration: none;
+            padding: 1.2rem 2rem;
+            display: block;
+            transition: all 0.2s ease;
+            font-size: 0.9rem;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+            border-left: 3px solid transparent;
+        }
+        
+        .nav-link:hover {
+            background: rgba(255, 215, 0, 0.1);
+            color: #FFD700;
+            border-left: 3px solid #FFD700;
+            padding-left: 2.5rem;
+        }
+        
+        /* Custom scrollbar for offcanvas */
+        .offcanvas-body::-webkit-scrollbar {
+            width: 4px;
+        }
+        
+        .offcanvas-body::-webkit-scrollbar-track {
+            background: #2a2a2a;
+        }
+        
+        .offcanvas-body::-webkit-scrollbar-thumb {
+            background: #FFD700;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Custom Offcanvas Navigation -->
+    <div class="offcanvas offcanvas-start custom-offcanvas" tabindex="-1" id="mobileNav">
+        <div class="offcanvas-header">
+            <div class="logo-container">
+                <div class="logo-shield"></div>
+                <div class="brand-text">KING CASTLE</div>
+                <div class="hours-badge">24 HOURS OPEN</div>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                ×
+            </button>
+        </div>
+        
+        <div class="offcanvas-body">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">OUR SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">GALLERY</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">CONTACT US</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Add smooth interactions
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Remove active class from all links
+                    navLinks.forEach(l => l.classList.remove('active'));
+                    
+                    // Add active class to clicked link
+                    this.classList.add('active');
+                    
+                    console.log('Clicked:', this.textContent);
+                });
+            });
+            
+            // Handle offcanvas events
+            const offcanvasElement = document.getElementById('mobileNav');
+            offcanvasElement.addEventListener('show.bs.offcanvas', function () {
+                console.log('Menu opened');
+            });
+            
+            offcanvasElement.addEventListener('hide.bs.offcanvas', function () {
+                console.log('Menu closed');
+            });
+        });
+    </script>
+</body>
+</html>

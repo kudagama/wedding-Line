@@ -1,0 +1,1398 @@
+
+        <!-- Tpm Blog and news Area Start (hidden) -->
+        <section class="blog-and-news-are tmp-section-gapBottom d-none" id="blog">
+            <div class="container">
+                <div class="section-head mb--50">
+                    <div class="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                        <span class="subtitle theme-gradient">Latest Blog</span>
+                    </div>
+                    <h2 class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">From Vision to
+                        Reality: Transforming Ideas into <br> Exceptional Creations</h2>
+                </div>
+                <div class="row g-5 animation-action-1">
+
+                    <!-- Start Blog Card  -->
+                    <div class="col-xl-4 col-lg-6 col-md-6 col-12 paralax-image">
+                        <div class="blog-card-style-two tmp-scroll-trigger tmponhover tmp-fade-in animation-order-1 single-animation"
+                            data-bs-toggle="modal" data-bs-target="#exampleModalCenters">
+
+                            <div class="blog-card-img">
+                                <div class="img-box">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/images/banner/samith-e-2.png" alt="Blog Thumbnail"
+                                            style="aspect-ratio: 16/9; object-fit: cover;">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="blog-content-wrap">
+                                <div class="blog-tags">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fa-regular fa-user"></i>Saman Edirisinghe</a>
+                                        </li>
+                                        <li style="display: none;">
+                                            <a href="#"><i class="fa-regular fa-comments"></i>Comments
+                                                (0)</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3 class="blog-title"><a href="javascript:void(0)">Building Sustainable Business
+                                        Ecosystems: Lessons from My Journey</a></h3>
+                                <div class="tmp-button-here">
+                                    <a class="tmp-btn hover-icon-reverse btn-border btn-md tmp-modern-button radius-round download-icon"
+                                        href="javascript:void(0)">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">Read More</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="ffa-sharp fa-regular fa-arrow-right"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="ffa-sharp fa-regular fa-arrow-right"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tmp-light light-left"></div>
+                        </div>
+                    </div>
+                    <!-- End Blog Card  -->
+
+                    <!-- Start Blog Card  -->
+                    <div class="col-xl-4 col-lg-6 col-md-6 col-12 paralax-image">
+                        <div class="blog-card-style-two tmp-scroll-trigger tmponhover tmp-fade-in animation-order-1 single-animation"
+                            data-bs-toggle="modal" data-bs-target="#malaysiaMeeting">
+
+                            <div class="blog-card-img">
+                                <div class="img-box">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/images/extra/malaysia-meeting.jpeg" alt="Blog Thumbnail"
+                                            style="aspect-ratio: 16/9; object-fit: cover;">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="blog-content-wrap">
+                                <div class="blog-tags">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fa-regular fa-user"></i>Saman Edirisinghe</a>
+                                        </li>
+                                        <li style="display: none;">
+                                            <a href="#"><i class="fa-regular fa-comments"></i>Comments
+                                                (0)</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3 class="blog-title"><a href="javascript:void(0)">
+                                        Business Meeting in Malaysia: Expanding Global Horizons
+                                    </a></h3>
+                                <div class="tmp-button-here">
+                                    <a class="tmp-btn hover-icon-reverse btn-border btn-md tmp-modern-button radius-round download-icon"
+                                        href="javascript:void(0)">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">Read More</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="ffa-sharp fa-regular fa-arrow-right"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="ffa-sharp fa-regular fa-arrow-right"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tmp-light light-left"></div>
+                        </div>
+                    </div>
+                    <!-- End Blog Card  -->
+
+                    <!-- Start Blog Card  -->
+                    <div class="col-xl-4 col-lg-6 col-md-6 col-12 paralax-image">
+                        <div class="blog-card-style-two tmp-scroll-trigger tmponhover tmp-fade-in animation-order-1 single-animation"
+                            data-bs-toggle="modal" data-bs-target="#samithAwardsModal">
+
+                            <div class="blog-card-img">
+                                <div class="img-box">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/images/banner/samith-e-4.jpeg" alt="Blog Thumbnail"
+                                            style="aspect-ratio: 16/9; object-fit: cover;">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="blog-content-wrap">
+                                <div class="blog-tags">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fa-regular fa-user"></i>Admin</a>
+                                        </li>
+                                        <li style="display: none;">
+                                            <a href="#"><i class="fa-regular fa-comments"></i>Comments
+                                                (0)</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3 class="blog-title"><a href="javascript:void(0)">Saman Edirisinghe: A Visionary
+                                        Entrepreneur Building Sri Lanka's Future</a></h3>
+                                <div class="tmp-button-here">
+                                    <a class="tmp-btn hover-icon-reverse btn-border btn-md tmp-modern-button radius-round download-icon"
+                                        href="javascript:void(0)">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">Read More</span>
+                                            <div class="btn-hack"></div>
+                                            <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                            <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                            <span class="btn-icon"><i
+                                                    class="ffa-sharp fa-regular fa-arrow-right"></i></span>
+                                            <span class="btn-icon"><i
+                                                    class="ffa-sharp fa-regular fa-arrow-right"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tmp-light light-left"></div>
+                        </div>
+                    </div>
+                    <!-- End Blog Card  -->
+                </div>
+            </div>
+        </section>
+        <!-- Tpm Blog and news Area End -->
+
+        <!--awards section (custom) (hidden)-->
+        <section id="awards" class="d-none">
+            <div class="container">
+                <div class="section-head mb--10">
+                    <div class="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                        <span class="subtitle theme-gradient">Awards Won</span>
+                    </div>
+                    <h2 class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
+                        Celebrating Achievements and <br>Recognitions
+                    </h2>
+                </div>
+                <div class="masonry-grid">
+                    <img src="assets/images/awards/award-1.jpeg" title="Click to zoom" alt="" data-bs-toggle="modal"
+                        data-bs-target="#imageModal">
+                    <img src="assets/images/awards/award-2.jpeg" title="Click to zoom" alt="" data-bs-toggle="modal"
+                        data-bs-target="#imageModal">
+                    <img src="assets/images/awards/award-8.jpeg" title="Click to zoom" alt="" data-bs-toggle="modal"
+                        data-bs-target="#imageModal">
+                    <img src="assets/images/awards/award-11.jpeg" title="Click to zoom" alt="" data-bs-toggle="modal"
+                        data-bs-target="#imageModal">
+                    <img src="assets/images/awards/award-14.jpeg" title="Click to zoom" alt="" data-bs-toggle="modal"
+                        data-bs-target="#imageModal">
+                    <img src="assets/images/awards/award-15.jpeg" title="Click to zoom" alt="" data-bs-toggle="modal"
+                        data-bs-target="#imageModal">
+                    <img src="assets/images/awards/award-17.jpeg" title="Click to zoom" alt="" data-bs-toggle="modal"
+                        data-bs-target="#imageModal">
+                </div>
+            </div>
+        </section>
+
+        <!--news section (custom) (hidden)-->
+        <section id="news" style="padding-top: 20px;" class="d-none">
+            <div class="container">
+                <div class="section-head mb--10">
+                    <div class="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                        <span class="subtitle theme-gradient">News Articles</span>
+                    </div>
+                    <h2 class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
+                        Latest News and <br>Updates
+                    </h2>
+                </div>
+                <div class="mb--30" style="height: 60dvh; position: relative;">
+                    <!--slider-->
+                    <div class="swiper mySwiper3 container swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden"
+                        style="height: 100%;">
+                        <div class="swiper-wrapper" id="swiper-wrapper-1c7e93fed0f27ecb" aria-live="off"
+                            style="transition-duration: 0ms; transform: translate3d(-1732px, 0px, 0px);">
+                            <!--news slider item-->
+                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" role="group"
+                                style="width: 430px; margin-right: 3px;" data-swiper-slide-index="0">
+                                <img class="cs_card_thumb w-100 h-100" style="object-fit: contain; aspect-ratio: 1/1;"
+                                    src="assets/images/awards/award-3.jpeg" alt="news item">
+                            </div>
+                        </div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+                    <!--control buttons-->
+                    <div
+                        style="position: absolute; top: 0px; width: 100%; height: 100%; display: flex; justify-content: space-between; align-items: center; z-index: 999;">
+                        <div class="swiper-button-prev3 my-swiper-button">
+                            <span class="btn-icon"><i class="fa-regular fa-arrow-left"></i></span>
+                        </div>
+                        <div class="swiper-button-next3 my-swiper-button">
+                            <span class="btn-icon"><i class="fa-regular fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+
+                    <!-- Add more package items here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Image modal -->
+        <div class="modal fade show" id="imageModal" tabindex="-1" role="dialog" aria-modal="true">
+            <div class="modal-dialog modal-dialog-centered modal-news" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-x">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg></span>
+                        </button>
+                    </div>
+
+                    <!-- End of .modal-header -->
+
+                    <div class="modal-body text-center">
+                        <img id="modalImage" class="img-fluid" src="" alt=""
+                            style="max-width: 100%; height: auto; aspect-ratio: 16/9; object-fit: contain;">
+                    </div>
+                    <!-- End of .modal-body -->
+                </div>
+            </div>
+        </div>
+        <!-- End Image modal -->
+
+        <!-- Start trigger modal (blog 1) -->
+        <div class="modal fade show" id="exampleModalCenters" tabindex="-1" role="dialog" aria-modal="true">
+            <div class="modal-dialog modal-dialog-centered modal-news" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-x">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg></span>
+                        </button>
+                    </div>
+
+                    <!-- End of .modal-header -->
+
+                    <div class="modal-body">
+                        <!--<img class="img-fluid mb--30" src="assets/images/banner/samith-e-2.png"
+                            alt="Leadership in Business" style="aspect-ratio: 16/9; object-fit: cover;">-->
+                        <div class="news-details">
+                            <span class="date">25 May, 2025</span>
+                            <h2>Building Sustainable Business Ecosystems: Lessons from My Journey</h2>
+                            <p><em>By Saman Edirisinghe</em></p>
+                            <p>
+                                Over the years, I’ve come to understand that true business success goes far beyond
+                                profit
+                                margins or market dominance. It’s about building sustainable ecosystems that create
+                                value for
+                                everyone involving, employees, partners, customers, and communities.
+                            </p>
+
+                            <h4>The Power of Diversification</h4>
+                            <p>
+                                Early in my journey, I realized that relying on a single venture wasn’t just risky, but
+                                it was
+                                limiting. That insight led to the creation of a diverse group of companies that span
+                                multiple
+                                industries:
+                            </p>
+                            <ul>
+                                <li><strong>Technology</strong> through <i>Diferencia Global Solutions,</i></li>
+
+                                <li><strong>Business consultancy</strong> via <i>Ever Efficient Business Management,</i>
+                                </li>
+
+                                <li><strong>Fashion</strong> with <i>Auroo Fashion,</i> and</li>
+
+                                <li><strong>Hospitality</strong> through <i>Royal Mansions Resorts.</i></li>
+                            </ul>
+                            <p>
+                                Each industry brings a different perspective. Technology drives innovation. Consultancy
+                                sharpens strategic thinking. Fashion encourages creativity. Hospitality reminds us that
+                                people
+                                and connection are at the heart of everything we do.
+                            </p>
+
+                            <h4>Leadership Through Empowerment</h4>
+                            <p>
+                                Great leadership is not about control; it’s about trust. I’ve learned that empowering
+                                people,
+                                giving them the tools, confidence, and space to grow which leads to extraordinary
+                                outcomes.
+                                Across all our ventures, this mindset has been key to building strong, resilient teams
+                                who take
+                                ownership and pride in what they do.
+                            </p>
+
+                            <h4>Looking Forward: Innovation with Purpose</h4>
+                            <p>
+                                I believe the most impactful businesses of the future will be those that solve
+                                real-world
+                                problems while staying true to their purpose. Whether it’s sustainable fashion,
+                                efficient
+                                business systems, transformative technology, or culturally rich hospitality, innovation
+                                must serve
+                                a deeper mission.
+                            </p>
+
+                            <p>
+                                The journey is ongoing, and I’m energized by the road ahead. Because in the end, success
+                                isn’t
+                                just about where we go, it’s about the positive change we leave behind.
+                            </p>
+
+                            <p class="text-center" style="width: 100% !important;">
+                                <i>Success is not a destination. It’s the impact we create along the way</i>
+                            </p>
+                        </div>
+
+                        <!-- Comment Section Area Start (hidden) -->
+                        <div class="comment-inner" style="display: none;">
+                            <h3 class="title mb--40 mt--50">Share Your Thoughts</h3>
+                            <div class="tmp-contact-form contact-form-style-1">
+                                <form action="#">
+                                    <div class="row g-5">
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input type="text" placeholder=" ">
+                                                <label>Name</label>
+                                                <span class="focus-border"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input type="email" placeholder=" ">
+                                                <label>Email</label>
+                                                <span class="focus-border"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea placeholder=" "></textarea>
+                                        <label>Your Comment</label>
+                                        <span class="focus-border"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="tmp-button-here">
+                                            <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                                href="javascript:void(0)">
+                                                <div class="icon-reverse-wrapper">
+                                                    <span class="btn-text">Submit Comment</span>
+                                                    <div class="btn-hack"></div>
+                                                    <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                                    <img src="assets/images/button/btg-bg-2.svg" alt=""
+                                                        class="btn-bg-hover">
+                                                    <span class="btn-icon"><i
+                                                            class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                    <span class="btn-icon"><i
+                                                            class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- Comment Section End -->
+                    </div>
+                    <!-- End of .modal-body -->
+                </div>
+            </div>
+        </div>
+        <!-- End trigger modal -->
+
+        <!--samith history modal-->
+        <div class="modal fade show" id="samithHistoryModal" tabindex="-1" role="dialog" aria-modal="true">
+            <div class="modal-dialog modal-dialog-centered modal-news" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-x">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg></span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+                        <img class="img-fluid mb-4" src="assets/images/banner/samith-e-2.png" alt="Saman Edirisinghe"
+                            style="aspect-ratio: 16/9; object-fit: cover; width: 100%; border-radius: 10px;">
+
+                        <div class="news-details">
+                            <span class="date">October 16, 1984 - Present</span>
+                            <h2>From Nugegoda to Global Success: The Inspiring Journey of Saman Edirisinghe</h2>
+                            <p><em>The remarkable story of vision, dedication, and transformational leadership</em></p>
+
+                            <p>Born and raised in Nugegoda, Sri Lanka, Saman Edirisinghe's journey from a passionate
+                                student at St. John's College to a globally recognized entrepreneur stands as one of
+                                the most inspiring success stories of modern Sri Lankan business. His story is not just
+                                about building companies—it's about building dreams, empowering communities, and
+                                creating lasting positive impact.</p>
+
+                            <h4>The Foundation: Education and Early Vision</h4>
+                            <p>From his early days at St. John's College, Saman exhibited an extraordinary passion
+                                for construction and design. This wasn't just a childhood interest—it was the foundation
+                                of what would become a remarkable entrepreneurial journey. After completing his Advanced
+                                Level education, he demonstrated remarkable dedication by working as a teacher while
+                                simultaneously pursuing studies in Civil Engineering and Draftsmanship.</p>
+
+                            <div class="highlight-box">
+                                <p><strong>A defining moment:</strong> His journey to the Sri Lanka Institute in the
+                                    United Kingdom wasn't just about education—it was about expanding horizons. There,
+                                    he not only continued his studies but secured a permanent position, developing an
+                                    architectural style that would later revolutionize Sri Lankan construction by
+                                    blending modern home designs with methods perfectly suited to the island's unique
+                                    landscape.</p>
+                            </div>
+
+                            <h4>The Birth of a Vision: Edirisinghe Homes</h4>
+                            <p>On October 16, 1984, a vision was born. But it was in 2012, in the cultural heart of
+                                Kandy, that this vision truly took shape with the establishment of Edirisinghe Homes
+                                (Pvt) Ltd. The timing was perfect—Kandy lacked adequate modern housing designs, creating
+                                the ideal opportunity for innovation.</p>
+
+                            <div class="company-highlight">
+                                <h5 style="margin: 0; font-weight: 600;">Edirisinghe Homes Today</h5>
+                                <p style="margin: 10px 0 0 0; opacity: 0.9;">From sole proprietorship to industry leader
+                                    with 500+ employees</p>
+                            </div>
+
+                            <div class="stats-grid">
+                                <div class="stat-item">
+                                    <span class="stat-number">500+</span>
+                                    <div class="stat-label">Employees</div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">3</span>
+                                    <div class="stat-label">Countries</div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">40+</span>
+                                    <div class="stat-label">Years of Vision</div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">2</span>
+                                    <div class="stat-label">Sri Lankan Branches</div>
+                                </div>
+                            </div>
+
+                            <h4>Global Expansion: A Vision Without Borders</h4>
+                            <p>What started in Kandy didn't stay in Kandy. Through innovative construction technologies
+                                and collaboration with skilled engineers, Saman introduced revolutionary designs and
+                                methods that transformed the regional construction landscape. The company's growth was
+                                remarkable—from a single operation to owning all essential machinery and tools for
+                                large-scale construction, with branches in both Kandy and Dehiwala.</p>
+
+                            <div class="timeline-item">
+                                <strong>2022:</strong> Global expansion begins with the establishment of a construction
+                                firm in Malaysia
+                            </div>
+                            <div class="timeline-item">
+                                <strong>2024:</strong> International footprint extends to Melbourne, Australia
+                            </div>
+                            <div class="timeline-item">
+                                <strong>2024:</strong> Diversification into tourism industry and founding of H & R
+                                Skills
+                                Institute
+                            </div>
+
+                            <h4>Beyond Business: A Philosophy of Empowerment</h4>
+                            <p>What sets Saman apart isn't just his business acumen—it's his unwavering commitment to
+                                empowerment. His approach to leadership is revolutionary: he recognizes and nurtures the
+                                unique talents of his employees, providing them with resources and opportunities to
+                                reach their full potential. This isn't just management—it's mentorship at scale.</p>
+
+                            <p>His innovative management style, especially in construction technology, empowers
+                                employees by entrusting them with significant responsibilities and fostering a spirit of
+                                entrepreneurship within his team. The result? A workforce that doesn't just work for the
+                                company—they grow with it.</p>
+
+                            <h4>Giving Back: The H & R Skills (Pvt) Ltd Vision</h4>
+                            <p>Perhaps most remarkably, Saman's entrepreneurial vision extends beyond profit to
+                                purpose. The founding of H & R Skills (Pvt) Ltd represents a commitment to nurturing
+                                young
+                                Sri Lankan talent with a clear mission: to empower Sri Lanka's development by providing
+                                world-class skills and opportunities, keeping the nation's brightest minds thriving at
+                                home.</p>
+
+                            <div class="highlight-box">
+                                <p><strong>Supporting New Ventures:</strong> Saman has established a dedicated division
+                                    to help individuals start their own businesses, providing financial assistance,
+                                    initial salaries, and resources so aspiring entrepreneurs can focus on building
+                                    successful ventures without the burden of immediate profitability.</p>
+                            </div>
+
+                            <h4>Sharing Knowledge: From Experience to Expertise</h4>
+                            <p>True to his teacher's heart, Saman continues to educate through his YouTube channel,
+                                offering practical advice on home construction—from choosing the right plot of land to
+                                minimizing building costs. His guidance reaches beyond his employees to benefit the
+                                general public, embodying his philosophy that knowledge shared is knowledge multiplied.
+                            </p>
+
+                            <h4>A Legacy in Motion</h4>
+                            <p>Today, Saman Edirisinghe's story continues to unfold. From his humble beginnings in
+                                Nugegoda to creating jobs for over 500 people, from transforming Kandy's construction
+                                landscape to establishing international operations in Malaysia and Australia, his
+                                journey exemplifies what's possible when vision meets dedication.</p>
+
+                            <p>But perhaps most importantly, his story reminds us that true success isn't measured just
+                                in profit margins or market expansion—it's measured in the lives transformed, the
+                                opportunities created, and the lasting positive impact on communities. Through his
+                                business initiatives and charitable efforts, Saman continues to inspire and empower
+                                those around him, leaving a legacy that extends far beyond construction sites to touch
+                                the very foundation of Sri Lankan entrepreneurship.</p>
+
+                            <div class="company-highlight">
+                                <h5 style="margin: 0; font-weight: 600;">"To empower Sri Lanka's development by
+                                    providing world-class skills and opportunities"</h5>
+                                <p style="margin: 10px 0 0 0; opacity: 0.9; font-style: italic;">- Saman Edirisinghe's
+                                    Vision</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--samith awards modal-->
+        <div class="modal fade show" id="samithAwardsModal" tabindex="-1" role="dialog" aria-modal="true">
+            <div class="modal-dialog modal-dialog-centered modal-news" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-x">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg></span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+                        <!--<img class="img-fluid mb-4" src="assets/images/banner/samith-e-4.jpeg"
+                            alt="Saman Edirisinghe Awards"
+                            style="aspect-ratio: 16/9; object-fit: cover; width: 100%; border-radius: 10px;">-->
+
+                        <div class="news-details">
+                            <span class="date">Recognition & Excellence</span>
+                            <h2>Saman Edirisinghe: A Visionary Entrepreneur Building Sri Lanka's Future</h2>
+                            <p><em>Award-winning excellence in entrepreneurship, innovation, and national
+                                    development</em></p>
+
+                            <div class="intro-highlight">
+                                <h5>Transforming Industries Across Sri Lanka and Beyond</h5>
+                                <p style="margin: 0; opacity: 0.9;">From construction and design to tourism, IT
+                                    solutions, and fashion—making a lasting impact through innovation and empowerment
+                                </p>
+                            </div>
+
+                            <p>Saman Edirisinghe stands as a trailblazing entrepreneur whose remarkable journey from a
+                                determined student to a respected business leader and philanthropist reflects an
+                                unwavering commitment to innovation, empowerment, and national development. Through a
+                                growing ecosystem of companies, he has transformed multiple industries, creating lasting
+                                positive impact across Sri Lanka and establishing a strong international presence.</p>
+
+                            <div class="industries-grid">
+                                <div class="industry-tag">🏗️ Construction & Design</div>
+                                <div class="industry-tag">🏨 Tourism & Hospitality</div>
+                                <div class="industry-tag">💻 IT Solutions</div>
+                                <div class="industry-tag">👗 Fashion & Lifestyle</div>
+                                <div class="industry-tag">🎓 Skills Development</div>
+                                <div class="industry-tag">🌍 International Markets</div>
+                            </div>
+
+                            <h4>🏆 Award-Winning Excellence</h4>
+                            <p>Saman's unwavering pursuit of excellence has earned him numerous prestigious awards at
+                                both national and international levels. His visionary leadership and entrepreneurial
+                                achievements have been consistently recognized by the Government of Sri Lanka and
+                                industry bodies, showcasing his strategic thinking, operational excellence, and
+                                relentless focus on quality and impact.</p>
+
+                            <div class="stats-banner">
+                                <h5 style="margin: 0 0 15px 0; font-weight: 600;">Recognition Timeline</h5>
+                                <div class="stats-row">
+                                    <div class="stat-item">
+                                        <span class="stat-number">10+</span>
+                                        <div class="stat-label">Years of Awards</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-number">7</span>
+                                        <div class="stat-label">Major Awards</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-number">2</span>
+                                        <div class="stat-label">International</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-number">5</span>
+                                        <div class="stat-label">National</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="achievements-grid">
+                                <div class="award-card">
+                                    <span class="award-icon">🏅</span>
+                                    <div class="award-year">2013</div>
+                                    <div class="award-title">Shramabhimani National Award</div>
+                                    <div class="award-description">Recognized for outstanding service and exceptional
+                                        contribution to the nation's development and progress.</div>
+                                </div>
+
+                                <div class="award-card">
+                                    <span class="award-icon">⭐</span>
+                                    <div class="award-year">2016</div>
+                                    <div class="award-title">Entrepreneur Award - Medium Scale</div>
+                                    <div class="award-description">2 Star Award for excellence in medium-scale
+                                        entrepreneurship and business innovation.</div>
+                                </div>
+
+                                <div class="award-card">
+                                    <span class="award-icon">⭐</span>
+                                    <div class="award-year">2017</div>
+                                    <div class="award-title">Entrepreneur Award - Large Scale</div>
+                                    <div class="award-description">1 Star Award recognizing the transition to
+                                        large-scale operations and sustained growth.</div>
+                                </div>
+
+                                <div class="award-card">
+                                    <span class="award-icon">⭐⭐</span>
+                                    <div class="award-year">2018</div>
+                                    <div class="award-title">Entrepreneur Award - Large Scale</div>
+                                    <div class="award-description">2 Star Award for continued excellence and expansion
+                                        in large-scale business operations.</div>
+                                </div>
+
+                                <div class="award-card">
+                                    <span class="award-icon">⭐⭐⭐</span>
+                                    <div class="award-year">2019</div>
+                                    <div class="award-title">Entrepreneur Award - Large Scale</div>
+                                    <div class="award-description">3 Star Award representing the pinnacle of
+                                        entrepreneurial achievement and industry leadership.</div>
+                                </div>
+
+                                <div class="award-card">
+                                    <span class="award-icon">🏆</span>
+                                    <div class="award-year">2023</div>
+                                    <div class="award-title">Asian Heroes Platinum Awards</div>
+                                    <div class="award-description">Honored for regional leadership and outstanding
+                                        social contribution in entrepreneurship across Asia.</div>
+                                </div>
+
+                                <div class="award-card">
+                                    <span class="award-icon">🏗️</span>
+                                    <div class="award-year">Recent</div>
+                                    <div class="award-title">Best Engineer Award</div>
+                                    <div class="award-description">D'Laman Greenville Project - Awarded for technical
+                                        excellence and sustainable engineering innovation.</div>
+                                </div>
+                            </div>
+
+                            <div class="quote-section">
+                                <p class="quote-text">Excellence is not a destination, but a journey of continuous
+                                    innovation, empowerment, and service to our nation and communities.</p>
+                            </div>
+
+                            <h4>🌟 Driving Growth in a Changing World</h4>
+                            <p>
+                                In the face of evolving global challenges and local economic shifts, Saman Edirisinghe
+                                continues to expand and future-proof his business ventures. His companies—such as
+                                Edirisinghe Homes, Royal Mansions Resorts, Design Studio Hub (SL & Australia),
+                                Diferencia
+                                Tours, Diferencia Global Solutions (Malaysia), Auroo Fashion, and Ever Efficient
+                                Business
+                                Management—are adapting with technology, design-thinking, and community-first values.
+                            </p>
+                            <p>
+                                Under his leadership, these businesses are not only thriving but also creating jobs,
+                                nurturing
+                                talent, supporting aspiring entrepreneurs, and contributing to national growth. His
+                                YouTube
+                                platform further extends his influence, where he educates and empowers others on
+                                construction, entrepreneurship, and personal development.
+                            </p>
+
+                            <h4>🚀 Business Development: A Dream Realized</h4>
+                            <p>
+                                <strong>Compassion and Empowerment: </strong>
+                                Saman Edirisinghe's commitment to social responsibility is as strong as his business
+                                acumen. His philanthropic approach is deeply rooted in empowerment. He recognizes and
+                                nurtures the unique talents of his employees, providing them with the resources and
+                                opportunities to reach their full potential. This personalized approach ensures that
+                                each
+                                individual has the chance to excel in their chosen field. His innovative management
+                                style
+                                especially in construction technology empowers employees by entrusting them with
+                                significant responsibilities and fostering a spirit of entrepreneurship within his team.
+                            </p>
+
+                            <p>
+                                <strong>Supporting New Ventures: </strong>
+                                Samith’s dedication to empowering others extends beyond his company. He has
+                                established a dedicated division designed to help individuals who wish to start their
+                                own
+                                businesses. This initiative provides aspiring entrepreneurs with essential support,
+                                including financial assistance, to develop their ventures without the burden of
+                                immediate
+                                profitability. By offering initial salaries and other resources, Saman ensures that
+                                these
+                                individuals can focus fully on building successful businesses. This practical approach
+                                reflects his commitment to uplifting others and cultivating a culture of innovation and
+                                self-confidence.
+                            </p>
+                            <p>
+                                In addition to his hands-on support, Saman shares his knowledge with a wider audience
+                                through his YouTube channel. There, he offers practical advice on various aspects of
+                                home construction from choosing the right plot of land to minimizing building costs. His
+                                guidance reaches a broad spectrum, ensuring that both his employees and the general
+                                public benefit from his expertise.
+                            </p>
+                            <p>
+                                The journey of Saman Edirisinghe from an ambitious student to a successful entrepreneur
+                                and philanthropist stands as a testament to his vision, hard work, and commitment to
+                                making a positive impact. Through his business initiatives and charitable efforts, he
+                                continues to inspire and empower those around him, leaving a lasting legacy in both the
+                                construction industry and the wider community.
+                            </p>
+
+                            <div class="intro-highlight">
+                                <h5>Commitment to Excellence</h5>
+                                <p style="margin: 0; opacity: 0.9;">Every award reflects our dedication to innovation,
+                                    quality, and positive impact on communities across Sri Lanka and beyond.</p>
+                            </div>
+
+                            <h4>🚀 Leaving a Legacy of Empowerment</h4>
+                            <p>
+                                More than a businessman, Saman is a changemaker. His portfolio reflects a deep passion
+                                for
+                                uplifting others, whether by enabling employees to reach their full potential, mentoring
+                                young entrepreneurs, or supporting community projects with long-term impact. His story
+                                is a
+                                testament to what is possible when purpose meets perseverance.
+                            </p>
+                            <p>
+                                Saman Edirisinghe is not just building homes or businesses—he is building a future.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--malaysia meeting modal-->
+        <div class="modal fade show" id="malaysiaMeeting" tabindex="-1" role="dialog" aria-modal="true">
+            <div class="modal-dialog modal-dialog-centered modal-news" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-x">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg></span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="news-details">
+                            <span class="date">04 June, 2025</span>
+                            <h2 class="text-justify">Business Meeting in Malaysia: Expanding Global Horizons</h2>
+                            <p><em>By Saman Edirisinghe</em></p>
+                        </div>
+                        <div>
+                            <div class="row">
+                                <div class="col-lg-4"><img class="img-fluid mb-4"
+                                        src="assets/images/extra/malaysia-meeting.jpeg"
+                                        alt="Saman Edirisinghe Malaysia Meeting"
+                                        style="aspect-ratio: 16/9; object-fit: cover; width: 100%; border-radius: 10px;">
+                                </div>
+                                <div class="col-lg-4"><img class="img-fluid mb-4"
+                                        src="assets/images/extra/malaysia-meeting2.jpeg"
+                                        alt="Saman Edirisinghe Malaysia Meeting"
+                                        style="aspect-ratio: 16/9; object-fit: cover; width: 100%; border-radius: 10px;">
+                                </div>
+                                <div class="col-lg-4"><img class="img-fluid mb-4"
+                                        src="assets/images/extra/malaysia-meeting3.jpeg"
+                                        alt="Saman Edirisinghe Malaysia Meeting"
+                                        style="aspect-ratio: 16/9; object-fit: cover; width: 100%; border-radius: 10px;">
+                                </div>
+                            </div>
+                            <div>
+                                <p>
+                                    On June 4, 2025, I had the opportunity to attend a high-level business development
+                                    meeting in
+                                    Malaysia, focused on expanding our international footprint and unlocking new
+                                    opportunities for
+                                    growth.
+                                </p>
+                                <p>
+                                    As the founder of the Ever Efficient Group and a portfolio of ventures across
+                                    architecture, travel,
+                                    tourism, digital design, and emerging technologies, I am committed to building
+                                    globally
+                                    connected businesses that lead with innovation and purpose. My work spans Sri Lanka,
+                                    Malaysia, Australia, and beyond, guided by a vision to integrate diverse industries
+                                    into a unified
+                                    and future-ready ecosystem.
+                                </p>
+                                <p>
+                                    In these recent meetings, we explored strategic partnerships that will shape the
+                                    next chapter of
+                                    our journey. Key discussions centered on digital transformation, with a particular
+                                    emphasis on
+                                    web development, cloud computing, AI-powered marketing, and scalable digital
+                                    infrastructure.
+                                    These areas are critical as we look to elevate our services and bring
+                                    next-generation solutions to
+                                    our clients worldwide.
+                                </p>
+                                <p>
+                                    The conversations also touched on creative collaborations in architectural design
+                                    and tourism
+                                    development, as well as advanced social media and content strategies. By aligning
+                                    design
+                                    thinking with technology, we aim to deliver experiences that are innovative,
+                                    culturally relevant,
+                                    and impactful.
+                                </p>
+                                <p>
+                                    My approach to leadership continues to be rooted in creativity, empowerment, and
+                                    strategic
+                                    growth. Through international engagement and forward-thinking partnerships, we are
+                                    creating
+                                    a business ecosystem that is not only scalable but deeply connected to the evolving
+                                    global
+                                    marketplace.
+                                </p>
+                                <p class="text-center w-100">
+                                    <i>Vision drives strategy. Collaboration fuels growth. Innovation builds the
+                                        future.</i>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Royal Mansions Resorts Modal (tourism) -->
+        <div class="modal fade" id="projectModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="portfolio-popup-thumbnail">
+                                    <div class="image">
+                                        <img class="w-100" src="assets/images/portfolio/new/royal-mansions.png"
+                                            alt="Royal Mansions Resorts">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="text-content">
+                                    <h3>
+                                        <span>Hospitality - Luxury Resort</span> Royal Mansions Resorts
+                                    </h3>
+                                    <p class="mb--30">
+                                        Royal Mansions Resorts offers a luxurious escape where nature, comfort, and Sri
+                                        Lankan
+                                        hospitality come together to create unforgettable experiences. Designed for both
+                                        local and
+                                        international travelers, each property provides a sanctuary of peace,
+                                        relaxation, and cultural
+                                        connection.
+                                    </p>
+                                    <p>
+                                        Every resort is a reflection of Saman Edirisinghe’s commitment to detail,
+                                        blending stunning
+                                        locations with world-class service to deliver moments that linger long after the
+                                        journey ends.
+                                    </p>
+                                    <div class="button-group button-group-pd mt--20">
+                                        <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                            href="#">
+                                            <div class="icon-reverse-wrapper">
+                                                <span class="btn-text">Visit Resort</span>
+                                                <div class="btn-hack"></div>
+                                                <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                                <img src="assets/images/button/btg-bg-2.svg" alt=""
+                                                    class="btn-bg-hover">
+                                                <span class="btn-icon"><i class="fa-solid fa-hotel"></i></span>
+                                                <span class="btn-icon"><i class="fa-solid fa-hotel"></i></span>
+                                            </div>
+                                        </a>
+                                        <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                            href="#">
+                                            <div class="icon-reverse-wrapper">
+                                                <span class="btn-text">Book Now</span>
+                                                <div class="btn-hack"></div>
+                                                <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                                <img src="assets/images/button/btg-bg-2.svg" alt=""
+                                                    class="btn-bg-hover">
+                                                <span class="btn-icon"><i class="fa-regular fa-calendar"></i></span>
+                                                <span class="btn-icon"><i class="fa-regular fa-calendar"></i></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Designs Studio Hub Sri Lanka Modal (construction) -->
+        <div class="modal fade" id="projectModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="portfolio-popup-thumbnail">
+                                    <div class="image">
+                                        <img class="w-100" src="assets/images/portfolio/new/design-hub1.png"
+                                            alt="Designs Studio Hub Sri Lanka">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="text-content">
+                                    <h3>
+                                        <span>Design - Architecture</span> Designs Studio Hub (Pvt) Ltd
+                                    </h3>
+                                    <p class="mb--30">
+                                        Designs Studio Hub (Pvt) Ltd is an innovative architectural studio known for
+                                        delivering creative,
+                                        functional, and sustainable design solutions. Positioned at the intersection of
+                                        architecture and
+                                        technology, it has earned a reputation as a trusted name for design excellence
+                                        across Sri Lanka.
+                                    </p>
+                                    <p>
+                                        Specializing in both residential and commercial projects, the studio blends
+                                        contemporary
+                                        aesthetics with smart functionality to create spaces that inspire, perform, and
+                                        endure.
+                                    </p>
+                                    <div class="button-group button-group-pd mt--20">
+                                        <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                            href="#">
+                                            <div class="icon-reverse-wrapper">
+                                                <span class="btn-text">Our Portfolio</span>
+                                                <div class="btn-hack"></div>
+                                                <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                                <img src="assets/images/button/btg-bg-2.svg" alt=""
+                                                    class="btn-bg-hover">
+                                                <span class="btn-icon"><i
+                                                        class="fa-solid fa-drafting-compass"></i></span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-solid fa-drafting-compass"></i></span>
+                                            </div>
+                                        </a>
+                                        <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                            href="#">
+                                            <div class="icon-reverse-wrapper">
+                                                <span class="btn-text">Get Quote</span>
+                                                <div class="btn-hack"></div>
+                                                <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                                <img src="assets/images/button/btg-bg-2.svg" alt=""
+                                                    class="btn-bg-hover">
+                                                <span class="btn-icon"><i class="fa-regular fa-envelope"></i></span>
+                                                <span class="btn-icon"><i class="fa-regular fa-envelope"></i></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Design Studio Hub Australia Modal (construction) -->
+        <div class="modal fade" id="projectModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="portfolio-popup-thumbnail">
+                                    <div class="image">
+                                        <img class="w-100" src="assets/images/portfolio/new/design-hub2.png"
+                                            alt="Design Studio Hub Australia">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="text-content">
+                                    <h3>
+                                        <span>International - Design</span> Design Studio Hub Pty Ltd
+                                    </h3>
+                                    <p class="mb--30">
+                                        Taking his design vision to the global stage, Saman Edirisinghe founded Design
+                                        Studio Hub in
+                                        Australia to offer world-class architectural and interior design services to an
+                                        international
+                                        audience.
+                                    </p>
+                                    <p>
+                                        The company embodies a unique fusion of Eastern creativity and Western
+                                        precision, delivering
+                                        innovative, culturally inspired design solutions that transcend borders.
+                                    </p>
+                                    <div class="button-group button-group-pd mt--20">
+                                        <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                            href="#">
+                                            <div class="icon-reverse-wrapper">
+                                                <span class="btn-text">Global Projects</span>
+                                                <div class="btn-hack"></div>
+                                                <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                                <img src="assets/images/button/btg-bg-2.svg" alt=""
+                                                    class="btn-bg-hover">
+                                                <span class="btn-icon"><i class="fa-solid fa-globe"></i></span>
+                                                <span class="btn-icon"><i class="fa-solid fa-globe"></i></span>
+                                            </div>
+                                        </a>
+                                        <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                            href="#">
+                                            <div class="icon-reverse-wrapper">
+                                                <span class="btn-text">Contact AU</span>
+                                                <div class="btn-hack"></div>
+                                                <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                                <img src="assets/images/button/btg-bg-2.svg" alt=""
+                                                    class="btn-bg-hover">
+                                                <span class="btn-icon"><i class="fa-regular fa-phone"></i></span>
+                                                <span class="btn-icon"><i class="fa-regular fa-phone"></i></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Diferencia Tours Modal (tourism) -->
+        <div class="modal fade" id="projectModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="portfolio-popup-thumbnail">
+                                    <div class="image">
+                                        <img class="w-100" src="assets/images/portfolio/new/diferencia.png"
+                                            alt="Diferencia Tours">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="text-content">
+                                    <h3>
+                                        <span>Travel - Tourism</span> Diferencia Tours (Pvt) Ltd
+                                    </h3>
+                                    <p class="mb--30">
+                                        Diferencia Tours curates personalized travel experiences that showcase the heart
+                                        of Sri Lanka.
+                                        With a commitment to exceptional service, safety, and cultural authenticity, the
+                                        company is
+                                        redefining the way travelers explore the island.
+                                    </p>
+                                    <p>
+                                        Each itinerary is thoughtfully designed to connect guests with Sri Lanka’s
+                                        vibrant heritage and
+                                        breathtaking landscapes, delivering meaningful journeys filled with discovery
+                                        and inspiration.
+                                    </p>
+                                    <div class="button-group button-group-pd mt--20">
+                                        <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                            href="#">
+                                            <div class="icon-reverse-wrapper">
+                                                <span class="btn-text">Tour Packages</span>
+                                                <div class="btn-hack"></div>
+                                                <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                                <img src="assets/images/button/btg-bg-2.svg" alt=""
+                                                    class="btn-bg-hover">
+                                                <span class="btn-icon"><i
+                                                        class="fa-solid fa-map-location-dot"></i></span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-solid fa-map-location-dot"></i></span>
+                                            </div>
+                                        </a>
+                                        <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                            href="#">
+                                            <div class="icon-reverse-wrapper">
+                                                <span class="btn-text">Plan Trip</span>
+                                                <div class="btn-hack"></div>
+                                                <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                                <img src="assets/images/button/btg-bg-2.svg" alt=""
+                                                    class="btn-bg-hover">
+                                                <span class="btn-icon"><i class="fa-regular fa-compass"></i></span>
+                                                <span class="btn-icon"><i class="fa-regular fa-compass"></i></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Diferencia Global Solutions Modal (tech) -->
+        <div class="modal fade" id="projectModal7" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="portfolio-popup-thumbnail">
+                                    <div class="image">
+                                        <img class="w-100" src="assets/images/portfolio/diferencia-global.jpg"
+                                            alt="Diferencia Global Solutions">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="text-content">
+                                    <h3>
+                                        <span>Technology - Digital Solutions</span> Diferencia Global Solutions – SDN
+                                        BHD
+                                    </h3>
+                                    <p class="mb--30">
+                                        Diferencia Global Solutions serves as the digital powerhouse of the group,
+                                        delivering advanced
+                                        IT services, software development, and global tech solutions. Headquartered in
+                                        Malaysia, the
+                                        company partners with businesses worldwide to enhance efficiency through
+                                        innovation,
+                                        strategy, and smart technology.
+                                    </p>
+                                    <p>
+                                        From custom software to strategic digital transformation, Diferencia empowers
+                                        organizations to
+                                        grow sustainably with tailored solutions and expert technical insight.
+                                    </p>
+                                    <div class="button-group button-group-pd mt--20">
+                                        <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                            href="#">
+                                            <div class="icon-reverse-wrapper">
+                                                <span class="btn-text">View Solutions</span>
+                                                <div class="btn-hack"></div>
+                                                <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                                <img src="assets/images/button/btg-bg-2.svg" alt=""
+                                                    class="btn-bg-hover">
+                                                <span class="btn-icon"><i class="fa-solid fa-laptop-code"></i></span>
+                                                <span class="btn-icon"><i class="fa-solid fa-laptop-code"></i></span>
+                                            </div>
+                                        </a>
+                                        <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                            href="#">
+                                            <div class="icon-reverse-wrapper">
+                                                <span class="btn-text">Get Quote</span>
+                                                <div class="btn-hack"></div>
+                                                <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                                <img src="assets/images/button/btg-bg-2.svg" alt=""
+                                                    class="btn-bg-hover">
+                                                <span class="btn-icon"><i class="fa-solid fa-paper-plane"></i></span>
+                                                <span class="btn-icon"><i class="fa-solid fa-paper-plane"></i></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ever Efficient Business Management Modal (business) -->
+        <div class="modal fade" id="projectModal8" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="portfolio-popup-thumbnail">
+                                    <div class="image">
+                                        <img class="w-100" src="assets/images/portfolio/new/ever-eff.png"
+                                            alt="Ever Efficient Business Management">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="text-content">
+                                    <h3>
+                                        <span>Consultancy - Business Management</span> Ever Efficient Business
+                                        Management (Pvt) Ltd
+                                    </h3>
+                                    <p class="mb--30">
+                                        Ever Efficient Business Management (Pvt) Ltd is a dynamic consultancy firm
+                                        dedicated to
+                                        empowering businesses through strategic planning, operational efficiency, and
+                                        leadership
+                                        development. With a strong focus on supporting SMEs, the firm helps
+                                        organizations streamline
+                                        processes, scale sustainably, and achieve lasting success through modern
+                                        business practices.
+                                    </p>
+                                    <p>
+                                        Backed by proven methodologies and a team of experienced consultants, Ever
+                                        Efficient works
+                                        side by side with clients to unlock growth, enhance performance, and deliver
+                                        measurable
+                                        impact across every area of operation.
+                                    </p>
+                                    <div class="button-group button-group-pd mt--20">
+                                        <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                            href="#">
+                                            <div class="icon-reverse-wrapper">
+                                                <span class="btn-text">Our Services</span>
+                                                <div class="btn-hack"></div>
+                                                <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                                <img src="assets/images/button/btg-bg-2.svg" alt=""
+                                                    class="btn-bg-hover">
+                                                <span class="btn-icon"><i class="fa-solid fa-chart-line"></i></span>
+                                                <span class="btn-icon"><i class="fa-solid fa-chart-line"></i></span>
+                                            </div>
+                                        </a>
+                                        <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                            href="#">
+                                            <div class="icon-reverse-wrapper">
+                                                <span class="btn-text">Schedule Consultation</span>
+                                                <div class="btn-hack"></div>
+                                                <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                                <img src="assets/images/button/btg-bg-2.svg" alt=""
+                                                    class="btn-bg-hover">
+                                                <span class="btn-icon"><i class="fa-solid fa-handshake"></i></span>
+                                                <span class="btn-icon"><i class="fa-solid fa-handshake"></i></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Auroo Fashion Modal (business) -->
+        <div class="modal fade" id="projectModal9" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="portfolio-popup-thumbnail">
+                                    <div class="image">
+                                        <img class="w-100" src="assets/images/portfolio/new/auroo.png"
+                                            alt="Auroo Fashion">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="text-content">
+                                    <h3>
+                                        <span>Fashion - Clothing Brand</span> Auroo Fashion (Pvt) Ltd
+                                    </h3>
+                                    <p class="mb--30">
+                                        Auroo Fashion is a clothing brand that celebrates individuality, creativity, and
+                                        cultural identity
+                                        through distinctive design. With a growing presence in Sri Lanka’s fashion
+                                        scene, the brand
+                                        delivers high-quality garments that blend contemporary trends with timeless
+                                        elegance.
+                                    </p>
+                                    <p>
+                                        Each collection is a reflection of refined craftsmanship and cultural heritage,
+                                        offering stylish,
+                                        meaningful pieces that speak to modern, fashion-forward consumers.
+                                    </p>
+                                    <div class="button-group button-group-pd mt--20">
+                                        <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                            href="#">
+                                            <div class="icon-reverse-wrapper">
+                                                <span class="btn-text">Shop Collection</span>
+                                                <div class="btn-hack"></div>
+                                                <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                                <img src="assets/images/button/btg-bg-2.svg" alt=""
+                                                    class="btn-bg-hover">
+                                                <span class="btn-icon"><i class="fa-solid fa-shopping-bag"></i></span>
+                                                <span class="btn-icon"><i class="fa-solid fa-shopping-bag"></i></span>
+                                            </div>
+                                        </a>
+                                        <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                            href="#">
+                                            <div class="icon-reverse-wrapper">
+                                                <span class="btn-text">View Catalog</span>
+                                                <div class="btn-hack"></div>
+                                                <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                                <img src="assets/images/button/btg-bg-2.svg" alt=""
+                                                    class="btn-bg-hover">
+                                                <span class="btn-icon"><i class="fa-solid fa-images"></i></span>
+                                                <span class="btn-icon"><i class="fa-solid fa-images"></i></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

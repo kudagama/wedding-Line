@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Wedding Line - Premium Menswear & Tailoring">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo(og).jpeg">
+    <meta type="og:image" content="assets/images/logo(og).jpeg">
+    <title>Wedding Line - The Gent's Choice</title>
+    <!-- Bootstrap min css -->
+    <link rel="stylesheet" href="assets/css/vendor/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/plugins/swiper.css">
+    <link rel="stylesheet" href="assets/css/plugins/odometer.css">
+    <link rel="stylesheet" href="assets/css/vendor/animate.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .portfolio-card-content-wrap .content-left {
+            width: 100%;
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 20px;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 8px;
+            width: 12px;
+            height: 12px;
+            background: #3498db;
+            border-radius: 50%;
+        }
+
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            left: 5px;
+            top: 20px;
+            width: 2px;
+            height: calc(100% - 12px);
+            background: #e9ecef;
+        }
+
+        .timeline-item:last-child::after {
+            display: none;
+        }
+
+        .company-highlight {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin: 25px 0;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border: 1px solid #e9ecef;
+        }
+
+        .stat-number {
+            font-size: 24px;
+            font-weight: 700;
+            color: #3498db;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: #7f8c8d;
+            margin-top: 5px;
+        }
+
+        .award-card {
+            background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%);
+            border: 2px solid #e9ecef;
+            border-radius: 15px;
+            padding: 25px;
+            margin: 2.5px 0;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .award-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #f39c12, #e74c3c, #9b59b6, #3498db);
+        }
+
+        .award-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            border-color: #3498db;
+        }
+
+        .award-icon {
+            font-size: 32px;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .award-year {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .award-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .award-description {
+            color: #7f8c8d;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .achievements-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 10px;
+            margin: 10px 0;
+        }
+
+        .intro-highlight {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin: 25px 0;
+            text-align: center;
+        }
+
+        .intro-highlight h5 {
+            margin: 0 0 10px 0;
+            font-weight: 600;
+        }
+
+        .stats-banner {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            margin: 25px 0;
+        }
+
+        .stats-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 20px;
+            margin-top: 15px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 28px;
+            font-weight: 700;
+            display: block;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .stat-label {
+            font-size: 12px;
+            opacity: 0.9;
+            margin-top: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .quote-section {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            padding: 25px;
+            border-radius: 15px;
+            margin: 30px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .quote-section::before {
+            content: '"';
+            font-size: 60px;
+            color: rgba(0, 0, 0, 0.1);
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            font-family: serif;
+        }
+
+        .quote-text {
+            font-size: 18px;
+            font-style: italic;
+            color: #fff !important;
+            margin: 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        .industries-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 25px 0;
+        }
+
+        .industry-tag {
+            background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+            color: #2c3e50;
+            padding: 12px 16px;
+            border-radius: 25px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 14px;
+            transition: transform 0.3s ease;
+        }
+
+        .industry-tag:hover {
+            transform: scale(1.05);
+        }
+
+        /* Base masonry grid styles */
+        .masonry-grid {
+            column-gap: 10px;
+            column-fill: balance;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        .masonry-grid img {
+            cursor: pointer;
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            break-inside: avoid;
+            page-break-inside: avoid;
+
+            /* Apply 16:9 aspect ratio */
+            aspect-ratio: 16/9;
+            object-fit: cover;
+
+            /* Glassmorphism base styles */
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(2px);
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Enhanced hover effect combining your lift with glassmorphism */
+        .masonry-grid img:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            background-color: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(4px);
+        }
+
+        /* Shine effect using a wrapper approach */
+        .masonry-grid {
+            position: relative;
+        }
+
+        .masonry-grid img::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -125%;
+            width: 60%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.4);
+            transform: skew(45deg);
+            transition: left 0.5s ease-out;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .masonry-grid img:hover::after {
+            left: 150%;
+        }
+
+        .masonry-grid .image-wrapper {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(2px);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .masonry-grid .image-wrapper:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            background-color: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(4px);
+        }
+
+        .masonry-grid .image-wrapper::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -125%;
+            width: 60%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.4);
+            transform: skew(45deg);
+            transition: left 0.5s ease-out;
+            z-index: 2;
+        }
+
+        .masonry-grid .image-wrapper:hover::before {
+            left: 150%;
+        }
+
+        .masonry-grid .image-wrapper img {
+            border: none;
+            background: none;
+            backdrop-filter: none;
+            transform: none;
+            box-shadow: none;
+            transition: none;
+        }
+
+        /* Mobile First Approach */
+        /* Below 600px: 1 column */
+        .masonry-grid {
+            column-count: 1;
+        }
+
+        /* 600px and above: 2 columns */
+        @media (min-width: 600px) {
+            .masonry-grid {
+                column-count: 2;
+            }
+        }
+
+        /* 768px and above: 3 columns */
+        @media (min-width: 768px) {
+            .masonry-grid {
+                column-count: 3;
+            }
+        }
+
+        /* 992px and above: 4 columns */
+        @media (min-width: 992px) {
+            .masonry-grid-lg {
+                column-count: 4;
+            }
+        }
+
+        /* Optional: Prevent images from being too small on larger screens */
+        @media (min-width: 1200px) {
+            .masonry-grid {
+                max-width: 1400px;
+                margin: 0 auto;
+            }
+        }
+
+        /*news slider*/
+        @media (min-width: 992px) {
+            .mySwiper3 .swiper-slide {
+                transition: transform 0.4s ease, z-index 0.4s;
+                transform: scale(0.85);
+                z-index: 1;
+            }
+
+            .mySwiper3 .swiper-slide-active {
+                transform: scale(1.1);
+                z-index: 2;
+            }
+        }
+
+        .my-swiper-button {
+            border: 2px solid white;
+            height: 40px;
+            width: 40px;
+            border-radius: 9999px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .portfolio-popup-thumbnail img,
+        .tmp-scroll-trigger img {
+            object-fit: cover !important;
+        }
+    </style>
+</head>
+
+<body class="spybody" data-spy="scroll" data-bs-target=".navbar-example2" data-offset="150">
+
+    <!-- tpm-header-area start -->
+    <header class="tmp-header-area-start header-one header--sticky header--transparent">
+        <!-- header mid area start -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header-content">
+                        <div class="logo">
+                            <a href="index.html">
+                                <div
+                                    style="display: flex !important; align-items: center !important; height: 100% !important; font-size: larger; font-family: var(--font-secondary); font-weight: bold; color: var(--color-primary);">
+                                    Wedding Line
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tmp-mainmenu-nav d-none d-xl-block">
+                            <nav class="navbar-example2 onepagenav">
+                                <ul class="tmp-mainmenu nav nav-pills">
+                                    <li class="current"><a class="smoth-animation" href="index.html">Home</a></li>
+                                    <li class="nav-item"><a class="smoth-animation" href="services.html">Services</a>
+                                    </li>
+                                    <li class="nav-item"><a class="smoth-animation" href="#about">About</a></li>
+                                    <li class="nav-item"><a class="smoth-animation" href="#expertise">Expertise</a></li>
+                                    <li class="nav-item"><a class="smoth-animation" href="portfolio.html">Portfolio</a>
+                                    </li>
+                                    <li class="nav-item"><a class="smoth-animation" href="#gallery">Gallery</a></li>
+                                    <li class="nav-item"><a class="smoth-animation" href="contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <div class="tmp-header-right">
+                            <div class="social-share-wrapper d-none d-md-block">
+                                <div class="social-link">
+                                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                    <a href="https://www.instagram.com/weddingline.lk?igsh=b3ZvNTM2eWk4Mmly"><i
+                                            class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/share/1AJ372YgFx/?mibextid=wwXIfr"><i
+                                            class="fa-brands fa-facebook-f"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="tmp-side-collups-area d-block d-xl-none">
+                                <button class="hamberger-menu menu-toggle" type="button" data-bs-toggle="offcanvas"
+                                    data-bs-target="#mobileNav">
+                                    <i id="menuBtn" class="fa-light fa-bars humberger-menu"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header mid area end -->
+    </header>
+
+    <!-- Custom Offcanvas Navigation -->
+    <div class="offcanvas offcanvas-start custom-offcanvas" tabindex="-1" id="mobileNav">
+        <div class="offcanvas-header">
+            <div class="logo-container">
+                <div class="logo-shield"></div>
+                <div class="brand-text">Wedding Line</div>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                ×
+            </button>
+        </div>
+
+        <div class="offcanvas-body">
+            <ul class="nav-menu">
+                <li class="mobile-nav-item">
+                    <a href="index.html" class="nav-link">HOME</a>
+                </li>
+                <li class="mobile-nav-item">
+                    <a href="services.html" class="nav-link">SERVICES</a>
+                </li>
+                <li class="mobile-nav-item">
+                    <a href="#about" class="nav-link">ABOUT</a>
+                </li>
+                <li class="mobile-nav-item">
+                    <a href="#expertise" class="nav-link">EXPERTISE</a>
+                </li>
+                <li class="mobile-nav-item">
+                    <a href="portfolio.html" class="nav-link">PORTFOLIO</a>
+                </li>
+                <li class="mobile-nav-item">
+                    <a href="#gallery" class="nav-link">GALLERY</a>
+                </li>
+                <li class="mobile-nav-item">
+                    <a href="contact.html" class="nav-link">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main content  -->
+    <div class="main-wrapper-inner">
+        <!-- tmp banner area start -->
+        <div class="banner-right-thumbnail-area v2 tmp-section-gap tmp-gradient-main" id="home">
+            <div class="container">
+                <div class="row align-items-center pt--50 justify-content-center">
+                    <div class="col-lg-12 text-center mb-5">
+                        <div class="banner-right-thumb-left-content" style="max-width: 800px; margin: 0 auto;">
+                            <span class="pre-title theme-gradient" style="font-size: 16px; letter-spacing: 5px;">The
+                                Gent's Choice</span>
+                            <h1 class="title" style="font-size: 80px; margin-bottom: 20px;">Wedding Line</h1>
+                            <div class="header-caption"
+                                style="font-size: 24px; font-family: var(--font-secondary); margin-bottom: 30px; color: var(--color-primary);">
+                                <span class="cd-headline clip is-full-width">
+                                    <span class="cd-words-wrapper">
+                                        <b class="is-visible theme-gradient">Custom Tailoring</b>
+                                        <b class="is-hidden theme-gradient">Groom's Wear</b>
+                                        <b class="is-hidden theme-gradient">Corporate Suits</b>
+                                    </span>
+                                </span>
+                            </div>
+                            <p class="disc hero-desc" style="font-size: 18px; max-width: 600px; margin: 0 auto;">
+                                Sri Lanka's Number One Quality Men's Wear Design Shop. Specializing in custom-made
+                                wedding suits, measuring to perfection.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-10 offset-lg-1">
+                        <div class="tmp-gradient-wrapper">
+                            <!-- Gradient removed via CSS -->
+                        </div>
+                        <div class="banner-right-content text-center">
+                            <div class="main-img">
+                                <img class="tmp-scroll-trigger tmp-zoom-in animation-order-1 hero-img"
+                                    src="assets/images/new-bg/2.png" alt="Wedding Line Collection"
+                                    style="width: 100%; border-radius: 0;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- tmp banner area end -->
+
+        <!-- tmp About Me Start -->
+        <section class="about-us-area tmp-section-gapBottom" id="about">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <div class="about-us-left-content-wrap">
+                            <div
+                                class="years-of-experience-card tmponhover active tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                <h3 class="counter card-title">
+                                    <span class="odometer" data-count="10">00</span>+
+                                </h3>
+                                <div class="tmp-light light-top-left"></div>
+                                <p class="card-para">Years of Experience</p>
+                            </div>
+
+                            <div class="design-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-2">
+                                <div class="design-card-img">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-scissors"></i>
+                                    </div>
+                                </div>
+                                <div class="tmp-light light-top-left"></div>
+                                <div class="card-info">
+                                    <h3 class="card-title">Master Tailoring</h3>
+                                    <p class="card-para">Bespoke Fits</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="about-us-right-content-wrap">
+                            <div class="section-head text-align-left mb--50">
+                                <div class="section-sub-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                    <span class="subtitle theme-gradient">About us</span>
+                                </div>
+                                <h2 class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">Luxury
+                                    Men's Fashion & Tailoring Experts</h2>
+                                <p class="description tmp-scroll-trigger tmp-fade-in animation-order-3">With over 10
+                                    years of experience in Sri Lanka's fashion industry, Wedding Line is a leading
+                                    designer shop serving gent's with exceptional custom suits,
+                                    using premium fabrics and delivering the perfect fit.</p>
+                            </div>
+
+                            <div class="about-us-section-card row g-5 animation-action-2">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div
+                                        class="about-us-card tmponhover single-animation tmp-scroll-trigger tmp-fade-in animation-order-4 active">
+                                        <div class="card-head with-flex">
+                                            <div class="logo-img">
+                                                <i class="fa-solid fa-gem"></i>
+                                            </div>
+                                            <h3 class="card-title">Premium Fabrics</h3>
+                                        </div>
+                                        <div class="tmp-light light-top-left"></div>
+                                        <p class="card-para">Imported high-quality materials</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div
+                                        class="about-us-card tmponhover single-animation tmp-scroll-trigger tmp-fade-in animation-order-5">
+                                        <div class="card-head with-flex">
+                                            <div class="logo-img">
+                                                <i class="fa-solid fa-map-marked-alt"></i>
+                                            </div>
+                                            <h3 class="card-title">Visit Us</h3>
+                                        </div>
+                                        <div class="tmp-light light-top-left"></div>
+                                        <p class="card-para">No:279, Puttalam Road, Kurunegala</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="about-btn mt--40 tmp-scroll-trigger tmp-fade-in animation-order-6">
+                                <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon"
+                                    href="javascript:void(0);">
+                                    <div class="icon-reverse-wrapper">
+                                        <span class="btn-text" data-bs-toggle="modal" data-bs-target="#aboutModal">Read
+                                            more</span>
+                                        <div class="btn-hack"></div>
+                                        <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                        <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                        <span class="btn-icon"><i class="fa-regular fa-arrow-right"></i></span>
+                                        <span class="btn-icon"><i class="fa-regular fa-arrow-right"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- tmp About Me end -->
+
+        <!-- Counter area start -->
+        <div class="counter-funfacts-area tmp-section-gapBottom">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <div class="counter-card fade-in animation-delay-1">
+                            <h3 class="counter counter-title">
+                                <span class="odometer" data-count="500">500</span>+
+                            </h3>
+                            <p class="counter-para">Happy Grooms</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <div class="counter-card fade-in animation-delay-2">
+                            <h3 class="counter counter-title">
+                                <span class="odometer" data-count="1000">1000</span>+
+                            </h3>
+                            <p class="counter-para">Suits Tailored</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <div class="counter-card fade-in animation-delay-3">
+                            <h3 class="counter counter-title">
+                                <span class="odometer" data-count="10">10</span>+
+                            </h3>
+                            <p class="counter-para">Years of Excellence</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <div class="counter-card fade-in animation-delay-4">
+                            <h3 class="counter counter-title">
+                                <span class="odometer" data-count="50">50</span>+
+                            </h3>
+                            <p class="counter-para">Fabric Varieties</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Counter area end -->
+
+        <!-- My Skill Area Start -->
+        <section class="my-skill-area-style-two" id="expertise">
+            <div class="container">
+                <div class="tpm-custom-box-bg position-relative overflow-hidden">
+                    <div class="row">
+                        <div class="col-xxl-6 col-lg-12 col-md-12">
+                            <div class="my-skill-area-left-content-wrap">
+                                <div class="section-head text-align-left">
+                                    <div class="section-sub-title fade-in animation-delay-1">
+                                        <span class="subtitle">Tailoring Excellence</span>
+                                    </div>
+                                    <h2 class="title fade-in animation-delay-2">Our Craftsmanship & Services
+                                    </h2>
+                                    <p class="description fade-in animation-delay-3 text-justify">With over ten
+                                        years of experience in the fashion industry, Wedding Line
+                                        has established itself as one of the leading men's wear shops in Sri
+                                        Lanka. Our expertise spans wedding suits, groomsmen packages,
+                                        and corporate wear, creating exceptional quality garments while
+                                        maintaining outstanding client service and style.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xxl-6 col-lg-12 col-md-12">
+                            <div class="my-skill-card-style-two row">
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <div class="my-skill-card fade-in animation-delay-1">
+                                        <div class="card-icon"><i class="fa-solid fa-user-tie"></i></div>
+                                        <h3 class="card-title">Custom Wedding Suits</h3>
+                                        <p class="card-para">Bespoke tailoring for your big day, ensuring the perfect
+                                            fit and style for the groom.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <div class="my-skill-card fade-in animation-delay-2">
+                                        <div class="card-icon"><i class="fa-solid fa-users"></i></div>
+                                        <h3 class="card-title">Groomsmen Packages</h3>
+                                        <p class="card-para">Matching kits for the full retinue, coordinated with the
+                                            groom's attire.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <div class="my-skill-card fade-in animation-delay-3">
+                                        <div class="card-icon"><i class="fa-solid fa-briefcase"></i></div>
+                                        <h3 class="card-title">Corporate & Office Wear</h3>
+                                        <p class="card-para">Professional blazers, trousers, and suits designed for the
+                                            modern workplace.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <div class="my-skill-card fade-in animation-delay-4">
+                                        <div class="card-icon"><i class="fa-solid fa-ruler-combined"></i></div>
+                                        <h3 class="card-title">Rentals & Alterations</h3>
+                                        <p class="card-para">Premium suit rentals and expert measuring services for any
+                                            occasion.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- My Skill Area End -->
+
+        <!--gallery-->
+        <section id="gallery">
+            <div class="container">
+                <div class="section-head mb--10">
+                    <div class="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                        <span class="subtitle theme-gradient">Our Gallery</span>
+                    </div>
+                    <h2 class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
+                        Celebrating Achievements and <br>Recognitions
+                    </h2>
+                </div>
+                <div class="masonry-grid">
+                    <div class="image-wrapper">
+                        <img src="assets/images/gallery/15.jpg" title="Click to zoom" alt="" data-bs-toggle="modal"
+                            data-bs-target="#imageModal">
+                    </div>
+                    <div class="image-wrapper"><img src="assets/images/gallery/1.jpg" title="Click to zoom" alt=""
+                            data-bs-toggle="modal" data-bs-target="#imageModal"></div>
+                    <div class="image-wrapper"><img src="assets/images//gallery/2.jpg" title="Click to zoom" alt=""
+                            data-bs-toggle="modal" data-bs-target="#imageModal"></div>
+                    <div class="image-wrapper"><img src="assets/images/gallery/3.jpg" title="Click to zoom" alt=""
+                            data-bs-toggle="modal" data-bs-target="#imageModal"></div>
+                    <div class="image-wrapper"><img src="assets/images/gallery/4.jpg" title="Click to zoom" alt=""
+                            data-bs-toggle="modal" data-bs-target="#imageModal"></div>
+                    <div class="image-wrapper"><img src="assets/images/gallery/5.jpg" title="Click to zoom" alt=""
+                            data-bs-toggle="modal" data-bs-target="#imageModal"></div>
+                    <div class="image-wrapper"><img src="assets/images/gallery/6.jpg" title="Click to zoom" alt=""
+                            data-bs-toggle="modal" data-bs-target="#imageModal"></div>
+                    <div class="image-wrapper"><img src="assets/images/gallery/7.jpg" title="Click to zoom" alt=""
+                            data-bs-toggle="modal" data-bs-target="#imageModal"></div>
+                    <div class="image-wrapper"><img src="assets/images/gallery/8.jpg" title="Click to zoom" alt=""
+                            data-bs-toggle="modal" data-bs-target="#imageModal"></div>
+                    <div class="image-wrapper"><img src="assets/images/gallery/9.jpg" title="Click to zoom" alt=""
+                            data-bs-toggle="modal" data-bs-target="#imageModal"></div>
+                    <div class="image-wrapper"><img src="assets/images/gallery/10.jpg" title="Click to zoom" alt=""
+                            data-bs-toggle="modal" data-bs-target="#imageModal"></div>
+                    <div class="image-wrapper"><img src="assets/images/gallery/11.jpg" title="Click to zoom" alt=""
+                            data-bs-toggle="modal" data-bs-target="#imageModal"></div>
+                    <div class="image-wrapper"><img src="assets/images/gallery/12.jpg" title="Click to zoom" alt=""
+                            data-bs-toggle="modal" data-bs-target="#imageModal"></div>
+                    <div class="image-wrapper"><img src="assets/images/gallery/13.jpg" title="Click to zoom" alt=""
+                            data-bs-toggle="modal" data-bs-target="#imageModal"></div>
+                    <div class="image-wrapper"><img src="assets/images/gallery/14.jpg" title="Click to zoom" alt=""
+                            data-bs-toggle="modal" data-bs-target="#imageModal"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Start Footer Area  -->
+        <div class="tmp-footer-area footer-style-4 tmp-section-gapTop pb--30">
+            <div class="plr--150 plr_lg--30 plr_md--30 plr_sm--30 plr_mobile--15">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="for-animation-inner" style="border: 0px solid #aaa;">
+                            <div class="cta__line-wrap-1"><img src="assets/images/lines/line-1.svg" loading="lazy"
+                                    alt="" height="118" class="cta__line-1"></div>
+                            <div class="cta__line-wrap-2"><img class="cta__line-2" src="assets/images/lines/line-1.svg"
+                                    loading="lazy" alt="" height="118"></div>
+                            <div class="footer-area text-center">
+                                <div class="logo" style="display: none;">
+                                    <a href="index.html">
+                                        <!--<img src="assets/images/logo/white-logo-reeni.png" alt="samith Edirisinghe">-->
+                                        <div
+                                            style="display: flex !important; align-items: center !important; height: 100% !important; font-size: larger; font-family: var(--font-primary);">
+                                            Wedding Line
+                                        </div>
+                                    </a>
+                                </div>
+                                <p class="description">©
+                                    <script>
+                                        //document.write(new Date().getFullYear())
+                                    </script>
+                                    Wedding Line | Designed & Developed by Silicon Radon Networks (Pvt)
+                                    Ltd</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Area  -->
+
+        <!-- About Me modal -->
+        <div class="modal fade show" id="aboutModal" tabindex="-1" role="dialog" aria-modal="true">
+            <div class="modal-dialog modal-dialog-centered modal-news" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-x">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body text-justify">
+                        <p><strong>A Legacy of Tailoring Excellence</strong></p>
+                        <p>From its establishment, Wedding Line has been driven by a commitment to
+                            delivering exceptional bespoke menswear that defines Sri Lankan elegance.
+                            With over a decade of experience in the fashion industry, the company has built a
+                            reputation as one of the leading tailoring houses in the country, specializing in
+                            wedding suits, groomsmen packages, and corporate attire.</p>
+
+                        <p>The company's approach combines traditional tailoring craftsmanship with modern design
+                            techniques, creating garments that meet international standards while
+                            celebrating individual style. Their expertise spans from intricate sherwanis to
+                            sleek modern tuxedos, always maintaining a focus on quality, fit, and
+                            client satisfaction.</p>
+
+                        <p><strong>Masterful Creations</strong></p>
+                        <p>Wedding Line's portfolio showcases remarkable diversity and style. The company has
+                            successfully dressed thousands of grooms, creating memorable looks for their special days.
+                            These creations represent the company's commitment to providing premium fashion solutions
+                            for
+                            Sri Lankan gentlemen.</p>
+
+                        <p>What began as a vision to serve the nation's sartorial needs has grown into a
+                            comprehensive design studio that handles everything from personal styling to
+                            complete wedding retinue coordination. The company's expert
+                            master tailors ensure that every stitch is perfect and every fit is impeccable.</p>
+
+                        <p><strong>Fashion and Quality Assurance</strong></p>
+                        <p>Wedding Line's commitment to excellence extends beyond the garment through
+                            comprehensive consultation services that ensure a perfect match for every
+                            personality and occasion. The company's approach emphasizes
+                            personal attention, fabric quality, and timely delivery.</p>
+
+                        <p>Understanding the importance of looking one's best, Wedding Line maintains strict
+                            quality control measures, sources premium fabrics, and adheres to the highest
+                            tailoring standards. The company actively supports local craftsmanship and
+                            participates in sustainable fashion practices.</p>
+
+                        <p><strong>Dressing Sri Lanka's Future</strong></p>
+                        <p>From crafting the perfect wedding suit to designing professional corporate wear,
+                            Wedding Line continues to demonstrate how quality clothing can instill confidence
+                            and elevate style. The company's journey reflects a deep
+                            commitment to defining Sri Lankan men's fashion while creating meaningful
+                            experiences for every client.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About Me modal -->
+
+        <!-- Image modal -->
+        <div class="modal fade show" id="imageModal" tabindex="-1" role="dialog" aria-modal="true">
+            <div class="modal-dialog modal-dialog-centered modal-news" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-x">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg></span>
+                        </button>
+                    </div>
+
+                    <!-- End of .modal-header -->
+
+                    <div class="modal-body text-center">
+                        <img id="modalImage" class="img-fluid" src="" alt=""
+                            style="max-width: 100%; height: auto; aspect-ratio: 16/9; object-fit: contain;">
+                    </div>
+                    <!-- End of .modal-body -->
+                </div>
+            </div>
+        </div>
+        <!-- End Image modal -->
+    </div>
+
+    <!-- ready chatting option via email (hidden) -->
+    <div class="ready-chatting-option tmp-ready-chat d-none">
+        <input type="checkbox" id="click">
+        <label for="click">
+            <i class="fab fa-facebook-messenger"></i>
+            <i class="fas fa-times"></i>
+        </label>
+        <div class="wrapper">
+            <div class="head-text">
+                Let's chat with me? - Online
+            </div>
+            <div class="chat-box">
+                <div class="desc-text">
+                    Please fill out the form below to start chatting with me directly.
+                </div>
+                <form class="tmp-dynamic-form" action="#">
+                    <div class="field">
+                        <input class="input-field" name="name" placeholder="Your Name" type="text" required>
+                    </div>
+                    <div class="field">
+                        <input class="input-field" name="email" placeholder="Your Email" type="email" required>
+                    </div>
+                    <div class="field textarea">
+                        <textarea class="input-field" placeholder="Your Message" name="message" required></textarea>
+                    </div>
+                    <div class="field-1 mt--20">
+                        <button class="tmp-btn btn-border tmp-modern-button">
+                            <span class="icon-reverse-wrapper">
+                                <span class="btn-text">Send Message</span>
+                                <span class="btn-hack"></span>
+                                <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                            </span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- ready chatting option via email end -->
+
+    <!--Messenger and WhatsApp Floating btns-->
+    <a href="#" class="float" style="z-index: 999999;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-messenger my-float"
+            viewBox="0 0 16 16">
+            <path
+                d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.64.64 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.64.64 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76m5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z" />
+        </svg>
+    </a>
+    <a href="https://wa.me/94771587667" id="wa-btn-wrapper"
+        style="position: fixed; z-index: 999999; bottom: 20px; right: 20px; aspect-ratio: 1/1 !important;">
+        <div id="wa_btn-content"
+            style="background: #16BE45; padding:  10px 13px; border-radius: 100%; aspect-ratio: 1/1 !important; width: 50px; height: 50px !important;">
+            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M18.1225 14.9458C17.8183 14.7895 16.3033 14.0473 16.0215 13.9469C15.7397 13.8409 15.5332 13.7907 15.3295 14.1032C15.123 14.4129 14.5371 15.102 14.3529 15.3113C14.1744 15.5178 13.993 15.5429 13.6889 15.3894C11.8808 14.4854 10.695 13.7767 9.50361 11.7315C9.18832 11.1874 9.8189 11.2265 10.4076 10.0518C10.5081 9.84534 10.4578 9.66956 10.3797 9.51331C10.3016 9.35706 9.68776 7.84478 9.43106 7.22815C9.18274 6.62826 8.92604 6.71197 8.7391 6.70081C8.56053 6.68965 8.35684 6.68965 8.15037 6.68965C7.9439 6.68965 7.61187 6.76777 7.33006 7.0719C7.04825 7.38161 6.25305 8.12659 6.25305 9.63887C6.25305 11.1511 7.35517 12.616 7.50584 12.8225C7.66209 13.0289 9.67381 16.1316 12.7625 17.4681C14.7157 18.3107 15.4802 18.3833 16.4567 18.2382C17.051 18.1489 18.2759 17.496 18.5298 16.7734C18.7837 16.0535 18.7837 15.4369 18.7084 15.3085C18.6331 15.1718 18.4266 15.0937 18.1225 14.9458Z"
+                    fill="white"></path>
+                <path
+                    d="M24.0292 7.65625C23.3986 6.15792 22.4946 4.81306 21.3422 3.65792C20.198 2.50948 18.8395 1.5966 17.3439 0.970982C15.8093 0.326451 14.1798 0 12.5002 0H12.4444C10.7535 0.00837054 9.11567 0.343192 7.57549 1.00167C6.09267 1.63371 4.74699 2.54821 3.61344 3.6942C2.47226 4.84654 1.57661 6.18583 0.95719 7.67857C0.315449 9.22433 -0.00821224 10.8677 0.000158294 12.5586C0.00962607 14.4963 0.468048 16.4054 1.33944 18.1362V22.3772C1.33944 22.7176 1.47467 23.0441 1.71537 23.2848C1.95607 23.5255 2.28253 23.6607 2.62293 23.6607H6.86679C8.59752 24.5321 10.5067 24.9905 12.4444 25H12.5029C14.1743 25 15.7954 24.6763 17.3216 24.043C18.8097 23.4248 20.163 22.5226 21.306 21.3867C22.4583 20.2455 23.3651 18.9118 23.9985 17.4247C24.657 15.8845 24.9918 14.2467 25.0002 12.5558C25.0085 10.8566 24.6793 9.20759 24.0292 7.65625ZM19.8132 19.8772C17.8573 21.8136 15.2624 22.8795 12.5002 22.8795H12.4527C10.7702 22.8711 9.09893 22.4526 7.62293 21.6657L7.38855 21.5402H3.45998V17.6116L3.33442 17.3772C2.54759 15.9012 2.12906 14.2299 2.12069 12.5474C2.10953 9.76562 3.17259 7.15402 5.12293 5.18694C7.07047 3.21987 9.67371 2.1317 12.4555 2.12054H12.5029C13.898 2.12054 15.2513 2.39118 16.5264 2.9269C17.7708 3.44866 18.8869 4.19922 19.8467 5.15904C20.8037 6.11607 21.5571 7.23493 22.0788 8.47935C22.6201 9.76841 22.8908 11.1356 22.8852 12.5474C22.8685 15.3265 21.7775 17.9297 19.8132 19.8772Z"
+                    fill="white"></path>
+            </svg>
+            <p style="color: white; margin-left: 0 !important">
+
+            </p>
+        </div>
+    </a>
+
+    <!-- progress area start -->
+    <div class="scrollToTop" style="display: block;">
+        <div class="arrowUp">
+            <i class="fa-light fa-arrow-up"></i>
+        </div>
+        <div class="water" style="transform: translate(0px, 87%);">
+            <svg viewBox="0 0 560 20" class="water_wave water_wave_back">
+                <use xlink:href="#wave"></use>
+            </svg>
+            <svg viewBox="0 0 560 20" class="water_wave water_wave_front">
+                <use xlink:href="#wave"></use>
+            </svg>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 560 20" style="display: none;">
+                <symbol id="wave">
+                    <path
+                        d="M420,20c21.5-0.4,38.8-2.5,51.1-4.5c13.4-2.2,26.5-5.2,27.3-5.4C514,6.5,518,4.7,528.5,2.7c7.1-1.3,17.9-2.8,31.5-2.7c0,0,0,0,0,0v20H420z"
+                        fill="#fff"></path>
+                    <path
+                        d="M420,20c-21.5-0.4-38.8-2.5-51.1-4.5c-13.4-2.2-26.5-5.2-27.3-5.4C326,6.5,322,4.7,311.5,2.7C304.3,1.4,293.6-0.1,280,0c0,0,0,0,0,0v20H420z"
+                        fill="#fff"></path>
+                    <path
+                        d="M140,20c21.5-0.4,38.8-2.5,51.1-4.5c13.4-2.2,26.5-5.2,27.3-5.4C234,6.5,238,4.7,248.5,2.7c7.1-1.3,17.9-2.8,31.5-2.7c0,0,0,0,0,0v20H140z"
+                        fill="#fff"></path>
+                    <path
+                        d="M140,20c-21.5-0.4-38.8-2.5-51.1-4.5c-13.4-2.2-26.5-5.2-27.3-5.4C46,6.5,42,4.7,31.5,2.7C24.3,1.4,13.6-0.1,0,0c0,0,0,0,0,0l0,20H140z"
+                        fill="#fff"></path>
+                </symbol>
+            </svg>
+
+        </div>
+    </div>
+    <!-- progress area end -->
+
+    <script src="assets/js/vendor/modernizer.js"></script>
+    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/vendor/jquery-ui.min.js"></script>
+    <script src="assets/js/vendor/waypoints.min.js"></script>
+
+    <script src="assets/js/plugins/odometer.js"></script>
+    <script src="assets/js/vendor/appear.js"></script>
+
+
+    <script src="assets/js/vendor/jquery-one-page-nav.js"></script>
+    <script src="assets/js/vendor/tilt.js"></script>
+    <script src="assets/js/plugins/swiper.js"></script>
+
+    <script src="assets/js/plugins/gsap.js"></script>
+    <script src="assets/js/plugins/splittext.js"></script>
+    <script src="assets/js/plugins/scrolltigger.js"></script>
+    <script src="assets/js/plugins/scrolltoplugins.js"></script>
+    <script src="assets/js/plugins/smoothscroll.js"></script>
+    <script src="assets/js/vendor/twinmax.js"></script>
+    <!-- bootstrap Js-->
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/waw.js"></script>
+    <script src="assets/js/vendor/intro-video.js"></script>
+    <script src="assets/js/plugins/isotop.js"></script>
+    <script src="assets/js/plugins/animation.js"></script>
+    <script src="assets/js/plugins/contact.form.js"></script>
+    <script src="assets/js/vendor/backtop.js"></script>
+    <script src="assets/js/plugins/text-type.js"></script>
+    <!-- custom Js -->
+    <script src="assets/js/main.js"></script>
+    <!--image modal-->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Get all images that trigger the modal
+            const triggerImages = document.querySelectorAll('img[data-bs-toggle="modal"]');
+            const modalImage = document.getElementById('modalImage');
+
+            // Add click event listener to each trigger image
+            triggerImages.forEach(function (img) {
+                img.addEventListener('click', function () {
+                    // Get the source and alt text from the clicked image
+                    const imgSrc = this.getAttribute('src');
+                    const imgAlt = this.getAttribute('alt');
+
+                    // Set the modal image source and alt text
+                    modalImage.setAttribute('src', imgSrc);
+                    modalImage.setAttribute('alt', imgAlt);
+                });
+            });
+        });
+    </script>
+    <!--news slider-->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var swiper = new Swiper(".mySwiper3", {
+                // Enable loop mode
+                loop: true,
+
+                // Center the active slide
+                centeredSlides: true,
+
+                // Enable minimum height to work properly
+                autoHeight: false,
+
+                // Responsive breakpoints
+                breakpoints: {
+                    // when window width is >= 320px
+                    320: {
+                        slidesPerView: 1,
+                        spaceBetween: 3
+                    },
+                    // when window width is >= 640px
+                    640: {
+                        slidesPerView: 1,
+                        spaceBetween: 3
+                    },
+                    // when window width is >= 992px
+                    992: {
+                        slidesPerView: 3,
+                        spaceBetween: 3
+                    },
+                    // when window width is >= 1200px
+                    1200: {
+                        slidesPerView: 3,
+                        spaceBetween: 3
+                    }
+                },
+
+                autoplay: {
+                    delay: 5000,           // 5 seconds between slides
+                    disableOnInteraction: false,  // Continue autoplay after user interaction
+                    pauseOnMouseEnter: true,      // Optional: pause on mouse hover
+                },
+
+                // Navigation arrows
+                navigation: {
+                    nextEl: ".swiper-button-next3",
+                    prevEl: ".swiper-button-prev3",
+                },
+
+                // Pagination
+                pagination: {
+                    el: ".swiper-pagination3",
+                    clickable: true,
+                },
+
+                // Accessibility
+                a11y: {
+                    prevSlideMessage: 'Previous slide',
+                    nextSlideMessage: 'Next slide',
+                },
+
+                // Speed
+                speed: 600,
+
+                // Auto resize observer
+                observer: true,
+                observeParents: true,
+
+                // Make sure height gets applied
+                on: {
+                    init: function () {
+                        updateCenterSlide(this);
+                        setTimeout(() => {
+                            this.update();
+                        }, 100);
+                    },
+                    slideChange: function () {
+                        updateCenterSlide(this);
+                    },
+                    resize: function () {
+                        this.update();
+                        updateCenterSlide(this);
+                    }
+                }
+            });
+        });
+
+        function updateCenterSlide(swiper) {
+            swiper.slides.forEach(slide => {
+                slide.classList.remove("is-center");
+            });
+
+            const visibleSlides = [];
+            swiper.slides.forEach(slide => {
+                if (slide.classList.contains("swiper-slide-visible")) {
+                    visibleSlides.push(slide);
+                }
+            });
+
+            if (visibleSlides.length) {
+                const centerIndex = Math.floor(visibleSlides.length / 2);
+                visibleSlides[centerIndex].classList.add("is-center");
+            }
+        }
+    </script>
+
+</body>
+
+</html>

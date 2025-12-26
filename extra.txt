@@ -1,0 +1,49 @@
+https://drive.google.com/drive/folders/1_hgeY2LKGUsRpGn5I6iZ_k6IYDhyXmpv?usp=drive_link
+
+https://drive.google.com/drive/folders/1bTQPROKE8zem-A5mFI_tDoQFWQwlG-Jx?usp=drive_link
+
+import os
+from PIL import Image
+
+# Input and output folders inside Google Drive
+input_folder = '/content/drive/My Drive/ImagesToGo'
+output_folder = '/content/drive/My Drive/OptimizedImages'
+
+# Make sure output folder exists
+os.makedirs(output_folder, exist_ok=True)
+
+# Loop through files and compress
+for filename in os.listdir(input_folder):
+    if filename.lower().endswith(('.jpg', '.jpeg', '.png')):
+        img_path = os.path.join(input_folder, filename)
+        img = Image.open(img_path)
+
+        # Save compressed version (JPEG quality ~70)
+        output_path = os.path.join(output_folder, filename)
+        img.save(output_path, optimize=True, quality=70)
+
+        print(f"Compressed: {filename} → {output_path}")
+
+DSS 75 bedrooms 2, sitting, dinning, pantry, kitchen, bathroom, office room, court yard, car poach 1785sqft 
+
+DSS 242 bedroom 3, bathroom 2, family sitting, dinning,pantry, office room, car poarch 
+
+DSS 240 bedroom 3, bathroom 2, family sitting, dinning, pantry, kitchen 
+
+DSS 255 bedroom 3, bathroom 1, family sitting, dinning, pantry. 
+
+DSS 274 bedroom 3, bathroom 2, family sitting, dinning, pantry, office room, garden space, pooja area, car poarch. 1857sqft 
+
+DSS 288 bedroom 3, bathroom 1, family sitting, dinning, pantry, kitchen, tv lobby, office roan, court yard, loundry room, car poarch. 2339sqft 
+
+DSS 501 bedroom 3, bathroom 2, family sitting, dinning pantry. 1569sqft 
+
+DSS 474 bedroom 2, bathroom 1, family sitting, dinning, pantry. 
+
+DSS 484 bedroom 3, bathroom 2, family sitting, dinning, pantry. 
+
+D55 516 bedroom 3, bathroom 2, family sitting, pantry, dinning, court yard, car poarch. 1557sqft 
+
+DSS 520 bedroom 2, bathroom 2, family sitting, dinning, pantry, kitchen, car porach. 1670sqft 
+
+D55 530 bedroom 3, bath room 2, family sitting, dinning, pantry. 
